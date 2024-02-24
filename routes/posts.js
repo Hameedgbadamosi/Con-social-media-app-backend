@@ -3,7 +3,7 @@ import { getFeedPosts, getUserPosts, likePost,deletePost,reportPost, createComme
 import { verifyToken } from "../middleware/auth.js";
 
 const router = express.Router();
-/* CREATE */
+/* CREATE. */
 router.post("/:id/comments", verifyToken, createComment);
 
 

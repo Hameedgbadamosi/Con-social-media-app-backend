@@ -211,7 +211,7 @@ export const posts = [
     lastName: "Doe",
     location: "Utah, CA",
     description:
-      "This is the last really long random description. This one is longer than the previous one.",
+      "This is the last really long random description, This one is longer than the previous one.",
     picturePath: "post3.jpeg",
     userPicturePath: "p5.jpeg",
     likes: new Map([

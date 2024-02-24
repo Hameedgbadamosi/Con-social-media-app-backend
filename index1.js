@@ -30,7 +30,7 @@ io.on("connection", (socket) => {
       firstName: data.firstName,
       message: data.message,
       picturePath: data.picturePath,
-      category: data.category, // include category in message data
+      category: data.category, // include category in message data.
       time: time,
     };
     console.log(`New message from user ${data.firstName}: ${data.message} in  ${data.category}`);
